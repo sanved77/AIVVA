@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="checkboxFS"
+        android:summary="Enable/disable full-screen mode"
+        android:enabled="false"
+        android:title="" >
+    </CheckBoxPreference>
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="checkboxB"
+        android:icon="@drawable/custom"
+        android:summary="Turn ON/OF the Floating Bubble shortcut"
+        android:title="" >
+    </CheckBoxPreference>
+
+</PreferenceScreen>

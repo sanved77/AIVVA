@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:weightSum="100" android:layout_height="match_parent">
+	<ScrollView android:layout_weight="20" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="match_parent" android:layout_height="match_parent">
+			<TextView android:text="Name"
+				android:layout_width="wrap_content" android:layout_marginTop="20dp" android:layout_height="wrap_content"></TextView>
+			<EditText android:layout_height="wrap_content"
+				android:layout_width="match_parent" android:id="@+id/etName">
+			</EditText>
+			<TextView android:text="Why you need the code:"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginTop="20dp"></TextView>
+			<EditText android:layout_height="wrap_content"
+				android:layout_width="match_parent" android:id="@+id/etIntro"></EditText>
+		</LinearLayout>
+	</ScrollView>
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="match_parent" android:layout_weight="40"
+		android:layout_height="fill_parent">
+		<Button android:text="Send Email" android:id="@+id/bSentEmail"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
+	</LinearLayout>
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="match_parent" android:layout_weight="30"
+		android:layout_height="fill_parent">
+	</LinearLayout>
+</LinearLayout><!-- From: file:/H:/AD_workspace/AIVVA/res/layout/email.xml -->

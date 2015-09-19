@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="H:\AD_workspace\AIVVA\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3e4e879d0b3dc11f2feb3f55e77e3b5bd82c4a28">
+        <dex dex="H:\AD_workspace\AIVVA\build\intermediates\pre-dexed\release\android-support-v4-5764a6a378d2c15ffff06662455849005026fd9a.jar" />
+    </item>
+
+</items>
